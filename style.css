@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header {
+    padding: 10px 48px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+header a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 1em;
+  
+}
+
+header nav li {
+    list-style: none;
+    display: inline;
+    margin-left: 25px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+header nav li:hover {
+    color: gold;
+    
+}
+
+.content {
+    text-align: center;
+    padding: 50px 40px;
+    background-color: black;
+}
+
+.content img, .meet {
+    margin-top: 20px;
+}
+
+.textBox h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3em;
+
+}
+
+.meet p {
+    color: gold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+
+}
+
+#contact-me {
+    background-color: gold;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+#contact-me:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.content img {
+    display: none;
+}
+
+.about-me-container, .review-container {
+    text-align: center;
+    padding-top: 30px;
+    background-color: black;
+}
+
+.about-me-container .about-me , .review-container .review {
+    margin-top: 10px;
+}
+
+.about-me h3 , .review h3 {
+
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.8em;
+    line-height: 2;
+}
+
+.about-me .description p , .review .testimonial p {
+
+    color: #BCACAC;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    max-width: 400px;
+    margin: auto;
+    padding-bottom: 15px;
+
+}
+
+.projects-container {
+    text-align: center;
+    background-color: black;
+    padding-bottom: 25px;
+}
+
+.projects-container h3 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.8em;
+    line-height: 2;
+
+}
+
+.projects-snapshots img {
+    border-radius: 10px;
+}
+
+.projects-container hr {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 992px) {
+    
+    header {
+        padding: 10px 79px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+    }
+
+    .textBox h1 {
+        
+        text-align: left;
+        width: 33%;
+    }
+
+    .textBox {
+        padding: 2px 36px;
+    }
+
+
+
+    .meet {
+        text-align: left;
+    }
+
+    .about-me-container , .review-container {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .about-me-container img , .review-container img{
+        width: 307px;
+        height: 365px;
+    }
+
+    .about-me , .review{
+        text-align: left;
+    }
+
+    .about-me .description p , .review .testimonial p{
+        max-width: 330px;
+        font-size: 1.1em;
+    }
+
+    .about-me h3 , .review h3 {
+        font-size: 2.2em;
+    }
+
+    .projects-container {
+        text-align: left;
+        padding: 20px 87px;
+}
+    .projects-container hr {
+        margin-left: 7px;
+        margin-bottom: 21px;
+    }
+
+    .projects-snapshots img {
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .review h3 {
+        font-size: 6em;
+        font-weight: 500;
+        color: #F1F1F1;
+        position: relative;
+        bottom: 52px;
+    }
+
+    .review-container img {
+        width: 300px ;
+        height: 326px;
+    }
+
+    .review-container .testimonial {
+        position: relative;
+        bottom: 66px;
+    }
+
+    .review-container .testimonial span {
+        color: white;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    header {
+        padding: 10px 167px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+    }
+
+    .textBox h1 {
+        
+        text-align: left;
+        width: 33%;
+        font-size: 4em;
+    }
+
+    .textBox {
+        padding: 10px 151px;
+    }
+
+    .content {
+        padding: 50px 0;
+    }
+    
+
+
+
+    .meet {
+        text-align: left;
+        display: inline;
+    }
+
+    .meet p {
+        max-width: 157px;
+        
+    }
+
+
+    .projects-container {
+        text-align: left;
+        padding: 20px 87px;
+}
+    .projects-container hr {
+        margin-left: 7px;
+        margin-bottom: 21px;
+    }
+
+    .projects-snapshots img {
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .review h3 {
+        font-size: 6em;
+        font-weight: 500;
+        color: #F1F1F1;
+        position: relative;
+        bottom: 52px;
+    }
+
+    .review-container img {
+        width: 300px ;
+        height: 326px;
+    }
+
+    .review-container .testimonial {
+        position: relative;
+        bottom: 66px;
+    }
+
+    .review-container .testimonial span {
+        color: white;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+
+}
+
+
+
